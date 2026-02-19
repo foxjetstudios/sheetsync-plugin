@@ -106,7 +106,8 @@ No external dependencies. No runtime overhead.
 ## Requirements ⚠️
 
 * **You must allow the plugin to use HTTP Service and allow script injection**
-* Google Sheet must be **publicly accessible**
+* Google Sheet must be **publicly accessible** with the permissions below:
+<img width="553" height="462" alt="Screenshot" src="https://github.com/user-attachments/assets/7f49eba9-46c0-4b21-8e5c-1eef54c570e8" />
 
 ---
 
