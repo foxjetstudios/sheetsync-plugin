@@ -6,6 +6,8 @@ Sync data from **Google Sheets** directly into **Roblox Studio** in seconds. She
 
 Perfect for **configs, balancing values, item data, NPC stats, leaderboards, and live iteration** without touching code every time.
 
+### Official Plugin: [Event Tracker - Roblox Creator Store](https://create.roblox.com/store/asset/71895649950262/SheetSync)
+
 ---
 
 ## Features ✨
@@ -27,12 +29,13 @@ Perfect for **configs, balancing values, item data, NPC stats, leaderboards, and
 
 ## Installation 🛠️
 
-1. Download the plugin `.rbxm` or `.rbxmx` file
-2. Open **Roblox Studio**
-3. Go to **Plugins → Manage Plugins → Import**
-4. Load SheetSync into your game
+1. Download the plugin `.rbxm` or `.rbxmx` file  
+2. Open Roblox Studio  
+3. Go to **Explorer → Plugin → Save as local plugin**  
+4. Load the plugin in your game
 
-*Or install it directly from the Roblox Creator Store (recommended).*
+*Or install it directly from the [Roblox Creator Store](https://create.roblox.com/store/asset/71895649950262/SheetSync) (recommended so you get auto-updates).*
+<img width="1440" height="724" alt="Screenshot" src="https://github.com/user-attachments/assets/fcf481e3-b440-498a-9176-8807d9248839" />
 
 ---
 
@@ -101,11 +104,15 @@ SheetSync uses a multi-step import pipeline:
 
 No external dependencies. No runtime overhead.
 
+**Demonstration video:**
+
+https://github.com/user-attachments/assets/db526111-c7a5-4efe-a403-138ef096c0fa
+
 ---
 
 ## Requirements ⚠️
 
-* **You must allow the plugin to use HTTP Service and allow script injection**
+* **You must allow the plugin to use HTTP Service and script injection**
 * Google Sheet must be **publicly accessible** with the permissions below:
 <img width="553" height="462" alt="Screenshot" src="https://github.com/user-attachments/assets/7f49eba9-46c0-4b21-8e5c-1eef54c570e8" />
 
@@ -113,7 +120,7 @@ No external dependencies. No runtime overhead.
 
 ## License 📜
 
-Released under the **MIT License**
+Code released under the **MIT License**
 Free to **use, modify, and distribute**.
 See the LICENSE file for full details.
 
