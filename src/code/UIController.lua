@@ -357,7 +357,7 @@ function UIController:_buildUI()
 	local urlBox = makeTextbox({
 		Size            = UDim2.new(1, -28, 0, 32),
 		Position        = UDim2.new(0, 14, 0, 34),
-		PlaceholderText = "https://docs.google.com/spreadsheets/d/...",
+		PlaceholderText = "your url",
 		Text            = "",
 		Parent          = urlSection,
 	})
