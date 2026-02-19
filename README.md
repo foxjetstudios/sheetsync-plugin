@@ -120,7 +120,7 @@ https://github.com/user-attachments/assets/db526111-c7a5-4efe-a403-138ef096c0fa
 
 ## License 📜
 
-Code released under the **MIT License**
+Code is released under the **MIT License**
 Free to **use, modify, and distribute**.
 See the LICENSE file for full details.
 
