@@ -641,12 +641,12 @@ function UIController:_onImport()
 		self:_setImportBusy(false)
 
 		if genErr then
-			self._logger:error("Generation failed: " .. genErr)
+			self._logger:error("Generation failed: " .. tostring(genErr))
 			return
 		end
 		
 		if not instance then
-			self._logger:error("Generation failed: " .. tostring(instance))
+			self._logger:error("Generation failed: " .. tostring(genErr))
 			return
 		end
 

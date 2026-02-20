@@ -128,6 +128,6 @@ See the LICENSE file for full details.
 
 ## Support & Feedback 💌
 
-* Found a bug or want a feature? Reach out via **Fox Jet Studios**
-* Follow us for updates and new tools
-* Your feedback directly shapes future releases
+* Questions or suggestions? Contact us via [Fox Jet Studios](https://foxjetstudios.com/contact)  
+* Follow us on social media [Fox Jet Studios](https://foxjetstudios.com/followus)  
+* Your feedback makes the plugin even better!  

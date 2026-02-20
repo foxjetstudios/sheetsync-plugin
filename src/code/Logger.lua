@@ -42,10 +42,14 @@ end
 
 function Logger:log(message: string, level: string?)
 	level = level or "info"
-
-	if #self._entries >= 120 then
-		local oldest = table.remove(self._entries, 1)
-		oldest:Destroy()
+	
+	if self._entries then
+		if #self._entries >= 120 then
+			local oldest = table.remove(self._entries, 1)
+			oldest:Destroy()
+		end
+	else
+		self._entries = {}
 	end
 
 	local entry = self:_createEntry(message, level)
@@ -68,9 +72,9 @@ function Logger:clear()
 	self._logFrame.CanvasSize = UDim2.new(0, 0, 0, 0)
 end
 
-function Logger:info(msg)    self:log(msg, "info")    end
-function Logger:success(msg) self:log(msg, "success") end
-function Logger:warn(msg)    self:log(msg, "warn")    end
-function Logger:error(msg)   self:log(msg, "error")   end
+function Logger:info(msg)    pcall(function() self:log(msg or "Unknown info", "info") end)    end
+function Logger:success(msg) pcall(function() self:log(msg or "Unknown success", "success") end) end
+function Logger:warn(msg)    pcall(function() self:log(msg or "Unknown warn", "warn") end)    end
+function Logger:error(msg)   pcall(function() self:log(msg or "Unknown error", "error") end)   end
 
 return Logger

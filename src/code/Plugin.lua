@@ -18,7 +18,7 @@ local widgetInfo = DockWidgetPluginGuiInfo.new(
 	480
 )
 
-local widget = plugin:CreateDockWidgetPluginGui("SheetSyncWidget", widgetInfo)
+local widget = plugin:CreateDockWidgetPluginGuiAsync("SheetSyncWidget", widgetInfo)
 widget.Title  = "SheetSync – Google Sheets Importer"
 widget.Name   = "SheetSyncWidget"
 
