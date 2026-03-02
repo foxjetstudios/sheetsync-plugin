@@ -27,18 +27,6 @@ Perfect for **configs, balancing values, item data, NPC stats, leaderboards, and
 
 ---
 
-## Installation 🛠️
-
-1. Download the plugin `.rbxm` or `.rbxmx` file  
-2. Open Roblox Studio  
-3. Go to **Explorer → Plugin → Save as local plugin**  
-4. Load the plugin in your game
-
-*Or install it directly from the [Roblox Creator Store](https://create.roblox.com/store/asset/71895649950262/SheetSync) (recommended so you get auto-updates).*
-<img width="1440" height="724" alt="Screenshot" src="https://github.com/user-attachments/assets/fcf481e3-b440-498a-9176-8807d9248839" />
-
----
-
 ## Usage 🚀
 
 1. Open **SheetSync** from the **Plugins** tab
