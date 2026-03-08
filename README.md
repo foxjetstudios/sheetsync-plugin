@@ -6,7 +6,7 @@ Sync data from **Google Sheets** directly into **Roblox Studio** in seconds. She
 
 Perfect for **configs, balancing values, item data, NPC stats, leaderboards, and live iteration** without touching code every time.
 
-### Official Plugin: [Event Tracker - Roblox Creator Store](https://create.roblox.com/store/asset/71895649950262/SheetSync)
+### Official Plugin: [SheetSync - Roblox Creator Store](https://create.roblox.com/store/asset/71895649950262/SheetSync)
 
 ---
 
