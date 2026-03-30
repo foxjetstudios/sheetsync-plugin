@@ -1,7 +1,7 @@
 --!strict
 
 --[[
-Module script / CSVParser.luau
+Module script / Logger.luau
 ]]
 
 local Logger = {}

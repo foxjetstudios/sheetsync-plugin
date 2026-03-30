@@ -1,7 +1,7 @@
 --!strict
 
 --[[
-Module script / CSVParser.luau
+Module script / Generator.luau
 ]]
 
 local Generator = {}

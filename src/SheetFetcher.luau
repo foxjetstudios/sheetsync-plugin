@@ -1,7 +1,7 @@
 --!strict
 
 --[[
-Module script / CSVParser.luau
+Module script / SheetFetcher.luau
 ]]
 
 local HttpService = game:GetService("HttpService")
